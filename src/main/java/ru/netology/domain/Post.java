@@ -1,23 +1,79 @@
 package ru.netology.domain;
 
 public class Post {
-    private String idPost;
+    private Integer idPost;
     private String ownerPost;
-    private String date;
+    private Integer date;
     private String actionsInfo;
     private String bodyOfPost;
-    private String likesInfo;
-    private String commentsInfo;
-    private String repost;
-    private String viewsInfo;
+    private Object likesInfo;
+    private Object commentsInfo;
+    private Object repost;
+    private Object viewsInfo;
+    private Integer ownerOfWall;
+    private String geo;
 
-    public String getIdPost() {
+
+    public Object getViewsInfo() {
+        return viewsInfo;
+    }
+
+    public void setViewsInfo(Object viewsInfo) {
+        this.viewsInfo = viewsInfo;
+    }
+
+    public void setRepost(Object repost) {
+        this.repost = repost;
+    }
+
+    public Object getLikesInfo() {
+        return likesInfo;
+    }
+
+    public void setLikesInfo(Object likesInfo) {
+        this.likesInfo = likesInfo;
+    }
+
+    public Object getCommentsInfo() {
+        return commentsInfo;
+    }
+
+    public void setCommentsInfo(Object commentsInfo) {
+        this.commentsInfo = commentsInfo;
+    }
+
+    public void setIdPost(Integer idPost) {
+        this.idPost = idPost;
+    }
+
+    public void setDate(Integer date) {
+        this.date = date;
+    }
+
+    public Integer getDate() {
+        return date;
+    }
+
+    public Integer getIdPost() {
         return idPost;
     }
 
-    public void setIdPost(String idPost) {
-        this.idPost = idPost;
+    public Integer getOwnerOfWall() {
+        return ownerOfWall;
     }
+
+    public void setOwnerOfWall(Integer ownerOfWall) {
+        this.ownerOfWall = ownerOfWall;
+    }
+
+    public String getGeo() {
+        return geo;
+    }
+
+    public void setGeo(String geo) {
+        this.geo = geo;
+    }
+
 
     public String getOwnerPost() {
         return ownerPost;
@@ -27,13 +83,6 @@ public class Post {
         this.ownerPost = ownerPost;
     }
 
-    public String getDate() {
-        return date;
-    }
-
-    public void setDate(String date) {
-        this.date = date;
-    }
 
     public String getActions() {
         return actionsInfo;
@@ -51,37 +100,7 @@ public class Post {
         this.bodyOfPost = bodyOfPost;
     }
 
-    public String getLikes() {
-        return likesInfo;
-    }
 
-    public void setLikes(String likes) {
-        this.likesInfo = likesInfo;
-    }
-
-    public String getComments() {
-        return commentsInfo;
-    }
-
-    public void setComments(String comments) {
-        this.commentsInfo = commentsInfo;
-    }
-
-    public String getRepost() {
-        return repost;
-    }
-
-    public void setRepost(String repost) {
-        this.repost = repost;
-    }
-
-    public String getViews() {
-        return viewsInfo;
-    }
-
-    public void setViews(String views) {
-        this.viewsInfo = viewsInfo;
-    }
 }
 
 

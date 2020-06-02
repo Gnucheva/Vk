@@ -1,22 +1,13 @@
 package ru.netology.domain;
 
 public class ViewsInfo {
-    private String idUser;
-    private String sumOfView;
+    private Integer sumOfView;
 
-    public String getIdUser() {
-        return idUser;
-    }
-
-    public void setIdUser(String idUser) {
-        this.idUser = idUser;
-    }
-
-    public String getSumOfView() {
+    public Integer getSumOfView() {
         return sumOfView;
     }
 
-    public void setSumOfView(String sumOfView) {
+    public void setSumOfView(Integer sumOfView) {
         this.sumOfView = sumOfView;
     }
 }
