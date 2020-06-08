@@ -1,22 +1,22 @@
 package ru.netology.domain;
 
 public class LikesInfo {
-    private Integer idUser;
-    private Integer sumOfLike;
+    private int idUser;
+    private int sumOfLike;
 
-    public Integer getIdUser() {
+    public int getIdUser() {
         return idUser;
     }
 
-    public void setIdUser(Integer idUser) {
+    public void setIdUser(int idUser) {
         this.idUser = idUser;
     }
 
-    public Integer getSumOfLike() {
+    public int getSumOfLike() {
         return sumOfLike;
     }
 
-    public void setSumOfLike(Integer sumOfLike) {
+    public void setSumOfLike(int sumOfLike) {
         this.sumOfLike = sumOfLike;
     }
 }

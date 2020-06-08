@@ -3,7 +3,7 @@ package ru.netology.domain;
 public class CommentsInfo {
     private String idUser;
     private String textOfComment;
-    private Integer sumOfComment;
+    private int sumOfComment;
 
     public String getIdUser() {
         return idUser;
@@ -21,11 +21,11 @@ public class CommentsInfo {
         this.textOfComment = textOfComment;
     }
 
-    public Integer getSumOfComment() {
+    public int getSumOfComment() {
         return sumOfComment;
     }
 
-    public void setSumOfComment(Integer sumOfComment) {
+    public void setSumOfComment(int sumOfComment) {
         this.sumOfComment = sumOfComment;
     }
 }

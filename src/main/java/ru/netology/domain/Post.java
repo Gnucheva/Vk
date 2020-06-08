@@ -1,28 +1,28 @@
 package ru.netology.domain;
 
 public class Post {
-    private Integer idPost;
+    private int idPost;
     private String ownerPost;
-    private Integer date;
+    private int date;
     private String actionsInfo;
     private String bodyOfPost;
-    private Object likesInfo;
-    private Object commentsInfo;
-    private Object repost;
-    private Object viewsInfo;
-    private Integer ownerOfWall;
+    private int likesInfo;
+    private int commentsInfo;
+    private int repost;
+    private int viewsInfo;
+    private String  ownerOfWall;
     private String geo;
 
 
-    public Object getViewsInfo() {
+    public int getViewsInfo() {
         return viewsInfo;
     }
 
-    public void setViewsInfo(Object viewsInfo) {
+    public void setViewsInfo(int viewsInfo) {
         this.viewsInfo = viewsInfo;
     }
 
-    public void setRepost(Object repost) {
+    public void setRepost(int repost) {
         this.repost = repost;
     }
 
@@ -30,39 +30,39 @@ public class Post {
         return likesInfo;
     }
 
-    public void setLikesInfo(Object likesInfo) {
+    public void setLikesInfo(int likesInfo) {
         this.likesInfo = likesInfo;
     }
 
-    public Object getCommentsInfo() {
+    public int getCommentsInfo() {
         return commentsInfo;
     }
 
-    public void setCommentsInfo(Object commentsInfo) {
+    public void setCommentsInfo(int commentsInfo) {
         this.commentsInfo = commentsInfo;
     }
 
-    public void setIdPost(Integer idPost) {
+    public void setIdPost(int idPost) {
         this.idPost = idPost;
     }
 
-    public void setDate(Integer date) {
+    public void setDate(int date) {
         this.date = date;
     }
 
-    public Integer getDate() {
+    public int  getDate() {
         return date;
     }
 
-    public Integer getIdPost() {
+    public int getIdPost() {
         return idPost;
     }
 
-    public Integer getOwnerOfWall() {
+    public String getOwnerOfWall() {
         return ownerOfWall;
     }
 
-    public void setOwnerOfWall(Integer ownerOfWall) {
+    public void setOwnerOfWall(String ownerOfWall) {
         this.ownerOfWall = ownerOfWall;
     }
 

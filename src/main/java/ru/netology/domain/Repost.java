@@ -1,22 +1,22 @@
 package ru.netology.domain;
 
 public class Repost {
-    private Integer idUser;
-    private Integer sumOfRepost;
+    private String idUser;
+    private int  sumOfRepost;
 
-    public Integer getIdUser() {
+    public String  getIdUser() {
         return idUser;
     }
 
-    public void setIdUser(Integer idUser) {
+    public void setIdUser(String idUser) {
         this.idUser = idUser;
     }
 
-    public Integer getSumOfRepost() {
+    public int getSumOfRepost() {
         return sumOfRepost;
     }
 
-    public void setSumOfRepost(Integer sumOfRepost) {
+    public void setSumOfRepost(int sumOfRepost) {
         this.sumOfRepost = sumOfRepost;
     }
 }

@@ -3,7 +3,7 @@ package ru.netology.domain;
 public class Geo {
     private String type;
     private String coordinates;
-    private Object place;
+    private String place;
 
     public String getType() {
         return type;
@@ -21,11 +21,11 @@ public class Geo {
         this.coordinates = coordinates;
     }
 
-    public Object getPlace() {
+    public String getPlace() {
         return place;
     }
 
-    public void setPlace(Object place) {
+    public void setPlace(String place) {
         this.place = place;
     }
 }
