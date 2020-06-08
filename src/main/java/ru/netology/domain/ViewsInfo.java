@@ -1,13 +1,13 @@
 package ru.netology.domain;
 
 public class ViewsInfo {
-    private int sumOfView;
+    private int count;
 
-    public int getSumOfView() {
-        return sumOfView;
+    public int getCount() {
+        return count;
     }
 
-    public void setSumOfView(int sumOfView) {
-        this.sumOfView = sumOfView;
+    public void setCount(int count) {
+        this.count = count;
     }
 }
